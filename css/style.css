@@ -1,0 +1,69 @@
+*{
+    font-family: "Roboto",sans-serif;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 70px;
+    list-style: none;
+}
+.header_menu .mevu_item {
+    font-size: 22px;
+}
+.header_menu .mevu_item a{
+   font-weight: 700 ;
+   text-decoration: none;
+   color: darkcyan;
+   text-transform: uppercase
+}
+.header_menu .mevu_item a:hover{
+    color: rgb(0, 175, 117);
+}
+.content{
+    height: 550px;
+}
+.content_header{
+    color: darkcyan;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 90px
+}
+.history{
+    margin-top: 150px;
+    text-align: justify;
+}
+.history_img{
+    margin-top: 60px;
+    width: 650px;
+    height: 350px;
+
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+  margin-top: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: darkcyan;
+  color: rgb(251, 255, 255);
+  font-size: 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  
+}
+.btn:hover{
+    color: aliceblue;
+    background-color: brown;
+}
+.par{
+    font-size: 40px;
+}
+.tankists{
+    height: 550px;
+}
+.t34{
+    margin-top: 60px;
+}
